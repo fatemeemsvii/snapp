@@ -1,0 +1,220 @@
+@media (min-width: 908px) {
+  #hr-menu {
+    display: none;
+  }
+}
+
+@media (max-width: 908px) {
+  #header {
+    height: 60px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(226, 226, 226);
+  }
+
+  #header-container {
+    height: 60px;
+  }
+
+  #hr-logo img {
+    position: absolute;
+    left: 7px;
+    top: 5px;
+  }
+
+  #hr-menu img {
+    position: absolute;
+    top: 6px;
+    right: 22vw;
+  }
+
+  #hr-links {
+    display: none;
+  }
+
+  #application-showcase {
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  #application-showcase h1 {
+    font-size: 20px;
+  }
+
+  #application-links {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr) minmax(auto, 1fr) minmax(auto, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-end: span 2;
+    gap: 10px;
+    padding: 0px;
+  }
+
+  #application-links div {
+    width: 146px;
+    height: 95px;
+    background-color: #ffffff;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    border-radius: 28px;
+  }
+
+  #application-links div img {
+    width: 53px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+  }
+
+  #application-links .size-fix img {
+    width: 125px;
+    height: 56px;
+  }
+
+  #application-links div h2 {
+    font-family: IRANSansBold;
+    font-size: 14px;
+    color: #404040;
+    font-weight: bold;
+    width: 100px;
+    position: static;
+    text-align: center;
+    margin: 0px;
+    margin-top: -94px;
+    margin-right: 14px;
+  }
+
+  #application-links div p {
+    display: none;
+  }
+
+  .slider-wrapper {
+    position: relative;
+    display: flex;
+    direction: ltr;
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+
+  .slider {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    border-radius: 13px;
+    width: 91vw;
+    height: 200px;
+    overflow: hidden;
+  }
+
+  .ss-banner-adjustment {
+    height: 490px;
+    width: 100vw;
+    display: grid;
+    overflow: hidden;
+  }
+
+  .ss-banner {
+    background-position: 0%;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    height: 290px;
+  }
+
+  .ss-texts {
+    height: 600px;
+    width: 93vw;
+    margin: 0%;
+    margin-top: 5vw;
+    margin-right: 3vw;
+  }
+
+  .ss-texts p {
+    font-family: IRANSans;
+    font-size: 15px;
+    color: #404040;
+    opacity: 90%;
+    line-height: 22px;
+  }
+
+  #ss-benefits {
+    display: grid;
+    justify-content: center;
+    position: relative;
+  }
+
+  #ss-benefits p {
+    max-width: 1000px;
+    width: 95vw;
+  }
+
+  .first-ss-benefits div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #f2f5f8;
+    border-radius: 18px;
+    overflow: hidden;
+    width: 93vw;
+    height: 230px;
+    max-width: 1000px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  .first-ss-benefits img {
+    width: 240px;
+  }
+
+  .second-ss-benefits div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #f2f5f8;
+    border-radius: 18px;
+    overflow: hidden;
+    width: 93vw;
+    height: 230px;
+    max-width: 1000px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  .second-ss-benefits img {
+    width: 240px;
+  }
+
+  .third-ss-benefits div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #f2f5f8;
+    border-radius: 18px;
+    overflow: hidden;
+    width: 93vw;
+    height: 230px;
+    max-width: 1000px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  .third-ss-benefits img {
+    width: 240px;
+  }
+
+  .rf-title {
+    width: 300px;
+  }
+
+  .rf-title h2 {
+    width: 300px;
+    font-size: 10px;
+  }
+}
